@@ -1,0 +1,32 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "~@coreui/coreui/scss/coreui";
+
+// If you want to add something do it here
+@import "custom";
+
+.card-header:not(.content-center) > .c-icon:first-child {
+  margin-right: 0.1rem;
+  margin-top: 0.1rem;
+  vertical-align: top;
+  width: 1.2rem;
+  height: 1.2rem;
+  font-size: 1.2rem;
+}
+
+.visiblePass{
+  float: right;
+  margin-right: 6px;
+  margin-top: -26px;
+  position: relative;
+  z-index: 2;
+}
+
+.myclass > div {
+  top: 170px !important;
+}
+.myclass span {
+display: flex;justify-content: center;align-items: center;
+}
